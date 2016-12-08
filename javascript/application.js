@@ -11,7 +11,8 @@ Utils = {
     console.log('Taking a break...');
     await this._sleep(ms);
     console.log('Two second later');
-  }
+  },
+
   sleepFor: function(sleepDuration){
       var now = new Date().getTime();
       while(new Date().getTime() < now + sleepDuration){ /* do nothing */ }
