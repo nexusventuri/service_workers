@@ -15,3 +15,4 @@ Utils = {
 }
 
 Utils.sleep(2000);
+console.log('Another console log later');
