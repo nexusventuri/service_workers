@@ -9,7 +9,7 @@ Utils = {
 
   sleep: async function(ms) {
     console.log('Taking a break...');
-    await sleep(ms);
+    await this._sleep(ms);
     console.log('Two second later');
   }
 }
